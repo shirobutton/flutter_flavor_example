@@ -1,4 +1,4 @@
-package com.example.flavor_example
+package com.contextcomposition.flavorexample
 
 import io.flutter.embedding.android.FlutterActivity
 
