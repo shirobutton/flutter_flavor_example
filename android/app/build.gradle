@@ -50,6 +50,14 @@ android {
         manifestPlaceholders["label"] = appName
     }
 
+    flavorDimensions "default"
+    productFlavors {
+        dev
+        stg
+        prod
+    }
+
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
